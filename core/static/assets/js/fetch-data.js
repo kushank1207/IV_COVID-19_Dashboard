@@ -113,25 +113,25 @@ function load_world_map() {
 
             var plot_data = [{
                 type: "scattermapbox",
-                lat: Object.values(data["Lat"]),
-                lon: Object.values(data["Long_"]),
-                hovertext: hoverinfo,
-                hoverinfo: "text",
-                marker: {
-                    color: Object.values(data["Confirmed"]),
-                    colorbar: {
-                        outlinewidth: 0,
-                        title: {
-                            text: "Confirmed"
-                        }
-                    },
-                    colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
-                    showscale: true,
-                    size: Object.values(data["Confirmed"]),
-                    sizemin: 0,
-                    sizeref: 2000,
-                    sizemode: "area"
-                }
+            //     lat: Object.values(data["Lat"]),
+            //     lon: Object.values(data["Long_"]),
+            //     hovertext: hoverinfo,
+            //     hoverinfo: "text",
+            //     marker: {
+            //         color: Object.values(data["Confirmed"]),
+            //         colorbar: {
+            //             outlinewidth: 0,
+            //             title: {
+            //                 text: "Confirmed"
+            //             }
+            //         },
+            //         colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
+            //         showscale: true,
+            //         size: Object.values(data["Confirmed"]),
+            //         sizemin: 0,
+            //         sizeref: 2000,
+            //         sizemode: "area"
+            //     }
             }];
 
             var plot_layout = {
@@ -139,7 +139,7 @@ function load_world_map() {
                 paper_bgcolor:'rgba(0,0,0,0)',
                 mapbox: {
                     style: "carto-positron",
-                    center: {lat: 20, lon: -20},
+                    center: {lat: 10, lon: -10},
                     zoom: 1
                 }
             };
