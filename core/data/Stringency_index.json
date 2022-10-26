@@ -1,0 +1,1004 @@
+[
+  {
+    "iso_code": "AFG",
+    "Lat": 17.4772331,
+    "Long": 7.497754494,
+    "Stringency_Index": 84.26
+  },
+  {
+    "iso_code": "ALB",
+    "Lat": 14.87253667,
+    "Long": 9.376145531,
+    "Stringency_Index": 89.81
+  },
+  {
+    "iso_code": "DZA",
+    "Lat": 17.59630906,
+    "Long": 9.540639235,
+    "Stringency_Index": 92.13
+  },
+  {
+    "iso_code": "AGO",
+    "Lat": 17.3079574,
+    "Long": 8.668968767,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "ARG",
+    "Lat": 17.62651421,
+    "Long": 9.848709615,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "ABW",
+    "Lat": 11.5783948,
+    "Long": 10.49054565,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "AUS",
+    "Lat": 17.05418434,
+    "Long": 10.70658069,
+    "Stringency_Index": 79.17
+  },
+  {
+    "iso_code": "AUT",
+    "Lat": 16.01344599,
+    "Long": 10.72407512,
+    "Stringency_Index": 85.19
+  },
+  {
+    "iso_code": "AZE",
+    "Lat": 16.13191719,
+    "Long": 9.670761927,
+    "Stringency_Index": 97.22
+  },
+  {
+    "iso_code": "BHR",
+    "Lat": 14.34706955,
+    "Long": 10.67569323,
+    "Stringency_Index": 78.7
+  },
+  {
+    "iso_code": "BGD",
+    "Lat": 18.91957173,
+    "Long": 8.167347447,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "BRB",
+    "Lat": 12.56852934,
+    "Long": 9.739677672,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "BLR",
+    "Lat": 16.06145345,
+    "Long": 9.750800543,
+    "Stringency_Index": 19.44
+  },
+  {
+    "iso_code": "BEL",
+    "Lat": 16.26562008,
+    "Long": 10.66098361,
+    "Stringency_Index": 81.48
+  },
+  {
+    "iso_code": "BLZ",
+    "Lat": 12.89325457,
+    "Long": 8.964997479,
+    "Stringency_Index": 85.19
+  },
+  {
+    "iso_code": "BEN",
+    "Lat": 16.31063137,
+    "Long": 7.632515461,
+    "Stringency_Index": 70.83
+  },
+  {
+    "iso_code": "BMU",
+    "Lat": 11.03928322,
+    "Long": 10.83307578,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "BTN",
+    "Lat": 13.55623711,
+    "Long": 9.072065978,
+    "Stringency_Index": 83.33
+  },
+  {
+    "iso_code": "BOL",
+    "Lat": 16.27279152,
+    "Long": 8.837220811,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "BIH",
+    "Lat": 15.00360243,
+    "Long": 9.368531023,
+    "Stringency_Index": 92.59
+  },
+  {
+    "iso_code": "BWA",
+    "Lat": 14.67061714,
+    "Long": 9.668231819,
+    "Stringency_Index": 86.11
+  },
+  {
+    "iso_code": "BRA",
+    "Lat": 19.17473208,
+    "Long": 9.554174869,
+    "Stringency_Index": 81.02
+  },
+  {
+    "iso_code": "BRN",
+    "Lat": 12.98879313,
+    "Long": 11.18176859,
+    "Stringency_Index": 58.33
+  },
+  {
+    "iso_code": "BGR",
+    "Lat": 15.75402845,
+    "Long": 9.828942169,
+    "Stringency_Index": 73.15
+  },
+  {
+    "iso_code": "BFA",
+    "Lat": 16.85541655,
+    "Long": 7.440206573,
+    "Stringency_Index": 89.81
+  },
+  {
+    "iso_code": "BDI",
+    "Lat": 16.29127395,
+    "Long": 6.554253865,
+    "Stringency_Index": 13.89
+  },
+  {
+    "iso_code": "KHM",
+    "Lat": 16.63205462,
+    "Long": 8.201130849,
+    "Stringency_Index": 68.52
+  },
+  {
+    "iso_code": "CMR",
+    "Lat": 17.09438451,
+    "Long": 8.121161251,
+    "Stringency_Index": 71.3
+  },
+  {
+    "iso_code": "CAN",
+    "Lat": 17.44628825,
+    "Long": 10.69234463,
+    "Stringency_Index": 74.54
+  },
+  {
+    "iso_code": "CPV",
+    "Lat": 13.22850199,
+    "Long": 8.735935712,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "CYM",
+    "Lat": 11.09315857,
+    "Long": 10.81783698,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "CAF",
+    "Lat": 15.39030816,
+    "Long": 6.49411686,
+    "Stringency_Index": 75.93
+  },
+  {
+    "iso_code": "TCD",
+    "Lat": 16.61436742,
+    "Long": 7.477690778,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "CHL",
+    "Lat": 16.76604717,
+    "Long": 10.03306902,
+    "Stringency_Index": 89.35
+  },
+  {
+    "iso_code": "CHN",
+    "Lat": 21.08743924,
+    "Long": 9.636177357,
+    "Stringency_Index": 81.94
+  },
+  {
+    "iso_code": "COL",
+    "Lat": 17.74503716,
+    "Long": 9.492126271,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "COG",
+    "Lat": 15.52354271,
+    "Long": 8.493188572,
+    "Stringency_Index": 97.22
+  },
+  {
+    "iso_code": "CRI",
+    "Lat": 15.44359631,
+    "Long": 9.650206585,
+    "Stringency_Index": 81.48
+  },
+  {
+    "iso_code": "CIV",
+    "Lat": 17.08805131,
+    "Long": 8.18896853,
+    "Stringency_Index": 80.56
+  },
+  {
+    "iso_code": "HRV",
+    "Lat": 15.22778158,
+    "Long": 10.02878879,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "CYP",
+    "Lat": 13.68300607,
+    "Long": 10.38638063,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "CZE",
+    "Lat": 16.18659339,
+    "Long": 10.39224872,
+    "Stringency_Index": 82.41
+  },
+  {
+    "iso_code": "COD",
+    "Lat": 18.31043503,
+    "Long": 6.694726649,
+    "Stringency_Index": 80.56
+  },
+  {
+    "iso_code": "DNK",
+    "Lat": 15.57202326,
+    "Long": 10.75112496,
+    "Stringency_Index": 72.22
+  },
+  {
+    "iso_code": "DJI",
+    "Lat": 13.80344,
+    "Long": 7.903007272,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "DMA",
+    "Lat": 11.18429639,
+    "Long": 9.177131718,
+    "Stringency_Index": 79.63
+  },
+  {
+    "iso_code": "DOM",
+    "Lat": 16.19948244,
+    "Long": 9.588835779,
+    "Stringency_Index": 97.22
+  },
+  {
+    "iso_code": "ECU",
+    "Lat": 16.68585306,
+    "Long": 9.266903675,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "EGY",
+    "Lat": 18.44375647,
+    "Long": 9.263900665,
+    "Stringency_Index": 84.26
+  },
+  {
+    "iso_code": "SLV",
+    "Lat": 15.68518756,
+    "Long": 8.894595942,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "ERI",
+    "Lat": 15.08145118,
+    "Long": 7.320168857,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "EST",
+    "Lat": 14.09808385,
+    "Long": 10.29150981,
+    "Stringency_Index": 77.78
+  },
+  {
+    "iso_code": "ETH",
+    "Lat": 18.56012597,
+    "Long": 7.45583449,
+    "Stringency_Index": 80.56
+  },
+  {
+    "iso_code": "FJI",
+    "Lat": 13.7061911,
+    "Long": 9.0714202,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "FIN",
+    "Lat": 15.52763465,
+    "Long": 10.61117158,
+    "Stringency_Index": 62.96
+  },
+  {
+    "iso_code": "FRA",
+    "Lat": 17.99409688,
+    "Long": 10.56115446,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "GAB",
+    "Lat": 14.61559461,
+    "Long": 9.71489113,
+    "Stringency_Index": 81.48
+  },
+  {
+    "iso_code": "GMB",
+    "Lat": 14.69789863,
+    "Long": 7.353573152,
+    "Stringency_Index": 78.7
+  },
+  {
+    "iso_code": "GEO",
+    "Lat": 15.199095,
+    "Long": 9.184517719,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "DEU",
+    "Lat": 18.24375196,
+    "Long": 10.71949917,
+    "Stringency_Index": 76.85
+  },
+  {
+    "iso_code": "GHA",
+    "Lat": 17.25184806,
+    "Long": 8.349396831,
+    "Stringency_Index": 86.11
+  },
+  {
+    "iso_code": "GRC",
+    "Lat": 16.15953083,
+    "Long": 10.1094598,
+    "Stringency_Index": 84.26
+  },
+  {
+    "iso_code": "GTM",
+    "Lat": 16.70118056,
+    "Long": 8.912447412,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "GIN",
+    "Lat": 16.39062287,
+    "Long": 7.600365315,
+    "Stringency_Index": 78.7
+  },
+  {
+    "iso_code": "GUY",
+    "Lat": 13.57542301,
+    "Long": 8.91396018,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "HTI",
+    "Lat": 16.24934608,
+    "Long": 7.410451751,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "HND",
+    "Lat": 16.10851066,
+    "Long": 8.421077587,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "HKG",
+    "Lat": 15.8300119,
+    "Long": 10.9340872,
+    "Stringency_Index": 66.67
+  },
+  {
+    "iso_code": "HUN",
+    "Lat": 16.08354044,
+    "Long": 10.19531954,
+    "Stringency_Index": 76.85
+  },
+  {
+    "iso_code": "ISL",
+    "Lat": 12.74037063,
+    "Long": 10.74684103,
+    "Stringency_Index": 53.7
+  },
+  {
+    "iso_code": "IND",
+    "Lat": 21.04535251,
+    "Long": 8.768212421,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "IDN",
+    "Lat": 19.42689854,
+    "Long": 9.322663552,
+    "Stringency_Index": 80.09
+  },
+  {
+    "iso_code": "IRN",
+    "Lat": 18.24624346,
+    "Long": 9.856533252,
+    "Stringency_Index": 63.89
+  },
+  {
+    "iso_code": "IRQ",
+    "Lat": 17.50993717,
+    "Long": 9.659119471,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "IRL",
+    "Lat": 15.41242964,
+    "Long": 11.11743979,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "ISR",
+    "Lat": 15.97371025,
+    "Long": 10.40826452,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "ITA",
+    "Lat": 17.91752278,
+    "Long": 10.46937177,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "JAM",
+    "Lat": 14.90109198,
+    "Long": 9.011105101,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "JPN",
+    "Lat": 18.65556675,
+    "Long": 10.57137392,
+    "Stringency_Index": 47.22
+  },
+  {
+    "iso_code": "JOR",
+    "Lat": 16.13820607,
+    "Long": 9.028517491,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "KAZ",
+    "Lat": 16.74812767,
+    "Long": 10.0881226,
+    "Stringency_Index": 89.35
+  },
+  {
+    "iso_code": "KEN",
+    "Lat": 17.80025043,
+    "Long": 8.004040863,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "OWID_KOS",
+    "Lat": 14.47446683,
+    "Long": 9.189712472,
+    "Stringency_Index": 92.59
+  },
+  {
+    "iso_code": "KWT",
+    "Lat": 15.26725623,
+    "Long": 11.09027153,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "KGZ",
+    "Lat": 15.69102752,
+    "Long": 8.129609454,
+    "Stringency_Index": 92.13
+  },
+  {
+    "iso_code": "LAO",
+    "Lat": 15.80003079,
+    "Long": 8.763640684,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "LVA",
+    "Lat": 14.45007584,
+    "Long": 10.12918169,
+    "Stringency_Index": 65.74
+  },
+  {
+    "iso_code": "LBN",
+    "Lat": 15.73616766,
+    "Long": 9.500586529,
+    "Stringency_Index": 85.19
+  },
+  {
+    "iso_code": "LSO",
+    "Lat": 14.57736817,
+    "Long": 7.955478753,
+    "Stringency_Index": 71.3
+  },
+  {
+    "iso_code": "LBR",
+    "Lat": 15.43641784,
+    "Long": 6.623783648,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "LBY",
+    "Lat": 15.74286198,
+    "Long": 9.791522441,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "LTU",
+    "Lat": 14.81698436,
+    "Long": 10.29296775,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "LUX",
+    "Lat": 13.34706731,
+    "Long": 11.45400277,
+    "Stringency_Index": 79.63
+  },
+  {
+    "iso_code": "MDG",
+    "Lat": 17.13661869,
+    "Long": 7.25590196,
+    "Stringency_Index": 95.37
+  },
+  {
+    "iso_code": "MWI",
+    "Lat": 16.76676599,
+    "Long": 6.998547998,
+    "Stringency_Index": 64.81
+  },
+  {
+    "iso_code": "MYS",
+    "Lat": 17.29261899,
+    "Long": 10.19646175,
+    "Stringency_Index": 75
+  },
+  {
+    "iso_code": "MLI",
+    "Lat": 16.82370654,
+    "Long": 7.608029998,
+    "Stringency_Index": 72.22
+  },
+  {
+    "iso_code": "MRT",
+    "Lat": 15.35230466,
+    "Long": 8.188031408,
+    "Stringency_Index": 77.78
+  },
+  {
+    "iso_code": "MUS",
+    "Lat": 14.05591783,
+    "Long": 9.918018712,
+    "Stringency_Index": 82.41
+  },
+  {
+    "iso_code": "MEX",
+    "Lat": 18.67480153,
+    "Long": 9.760567596,
+    "Stringency_Index": 82.41
+  },
+  {
+    "iso_code": "MDA",
+    "Lat": 15.21025983,
+    "Long": 8.554483581,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "MNG",
+    "Lat": 15.00283311,
+    "Long": 9.379310359,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "MAR",
+    "Lat": 17.42400819,
+    "Long": 8.920658034,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "MOZ",
+    "Lat": 17.25770384,
+    "Long": 7.035359264,
+    "Stringency_Index": 80.56
+  },
+  {
+    "iso_code": "MMR",
+    "Lat": 17.81205473,
+    "Long": 8.629020214,
+    "Stringency_Index": 86.11
+  },
+  {
+    "iso_code": "NAM",
+    "Lat": 14.7480352,
+    "Long": 9.163438264,
+    "Stringency_Index": 73.15
+  },
+  {
+    "iso_code": "NPL",
+    "Lat": 17.18751281,
+    "Long": 7.800901839,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "NLD",
+    "Lat": 16.6566263,
+    "Long": 10.78875283,
+    "Stringency_Index": 79.63
+  },
+  {
+    "iso_code": "NZL",
+    "Lat": 15.38874766,
+    "Long": 10.49365591,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "NIC",
+    "Lat": 15.70629361,
+    "Long": 8.579499974,
+    "Stringency_Index": 16.67
+  },
+  {
+    "iso_code": "NER",
+    "Lat": 17.00213737,
+    "Long": 6.830874235,
+    "Stringency_Index": 61.11
+  },
+  {
+    "iso_code": "NGA",
+    "Lat": 19.1440641,
+    "Long": 8.582691377,
+    "Stringency_Index": 85.65
+  },
+  {
+    "iso_code": "NOR",
+    "Lat": 15.5058355,
+    "Long": 11.07906176,
+    "Stringency_Index": 79.63
+  },
+  {
+    "iso_code": "OMN",
+    "Lat": 15.44604869,
+    "Long": 10.54430693,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "PAK",
+    "Lat": 19.21318595,
+    "Long": 8.524110809,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "PSE",
+    "Lat": 15.44502871,
+    "Long": 8.400636454,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "PAN",
+    "Lat": 15.27755412,
+    "Long": 10.0108627,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "PNG",
+    "Lat": 16.00683186,
+    "Long": 8.248841478,
+    "Stringency_Index": 83.8
+  },
+  {
+    "iso_code": "PRY",
+    "Lat": 15.78017657,
+    "Long": 9.085571618,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "PER",
+    "Lat": 17.3111646,
+    "Long": 9.412195402,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "PHL",
+    "Lat": 18.51217534,
+    "Long": 8.935796678,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "POL",
+    "Lat": 17.44905184,
+    "Long": 10.21157667,
+    "Stringency_Index": 83.33
+  },
+  {
+    "iso_code": "PRT",
+    "Lat": 16.13757538,
+    "Long": 10.23770353,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "PRI",
+    "Lat": 14.86662585,
+    "Long": 10.46437881,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "QAT",
+    "Lat": 14.87366884,
+    "Long": 11.66937863,
+    "Stringency_Index": 86.11
+  },
+  {
+    "iso_code": "ROU",
+    "Lat": 16.77238152,
+    "Long": 10.05677496,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "RUS",
+    "Lat": 18.79866817,
+    "Long": 10.11722517,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "RWA",
+    "Lat": 16.37677691,
+    "Long": 7.525214548,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "SMR",
+    "Lat": 10.43229061,
+    "Long": 10.94837324,
+    "Stringency_Index": 92.59
+  },
+  {
+    "iso_code": "SAU",
+    "Lat": 17.36552634,
+    "Long": 10.8005019,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "SEN",
+    "Lat": 16.63354636,
+    "Long": 7.81220822,
+    "Stringency_Index": 77.78
+  },
+  {
+    "iso_code": "SRB",
+    "Lat": 15.73310882,
+    "Long": 9.550298027,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "SYC",
+    "Lat": 11.49618614,
+    "Long": 10.18044812,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "SLE",
+    "Lat": 15.89207108,
+    "Long": 7.23727483,
+    "Stringency_Index": 94.44
+  },
+  {
+    "iso_code": "SGP",
+    "Lat": 15.58201085,
+    "Long": 11.35668541,
+    "Stringency_Index": 85.19
+  },
+  {
+    "iso_code": "SVK",
+    "Lat": 15.51289396,
+    "Long": 10.31411107,
+    "Stringency_Index": 87.04
+  },
+  {
+    "iso_code": "SVN",
+    "Lat": 14.54736486,
+    "Long": 10.35458992,
+    "Stringency_Index": 89.81
+  },
+  {
+    "iso_code": "ZAF",
+    "Lat": 17.8982664,
+    "Long": 9.416937869,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "KOR",
+    "Lat": 17.75260041,
+    "Long": 10.48956092,
+    "Stringency_Index": 82.41
+  },
+  {
+    "iso_code": "SSD",
+    "Lat": 16.23086427,
+    "Long": 7.358759558,
+    "Stringency_Index": 86.11
+  },
+  {
+    "iso_code": "ESP",
+    "Lat": 17.66042712,
+    "Long": 10.44209448,
+    "Stringency_Index": 85.19
+  },
+  {
+    "iso_code": "LKA",
+    "Lat": 16.87952045,
+    "Long": 9.36469763,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "SDN",
+    "Lat": 17.59626861,
+    "Long": 8.40436195,
+    "Stringency_Index": 91.67
+  },
+  {
+    "iso_code": "SUR",
+    "Lat": 13.28215639,
+    "Long": 9.530038347,
+    "Stringency_Index": 100
+  },
+  {
+    "iso_code": "SWZ",
+    "Lat": 13.96407193,
+    "Long": 8.954024529,
+    "Stringency_Index": 89.81
+  },
+  {
+    "iso_code": "SWE",
+    "Lat": 16.1279737,
+    "Long": 10.75682321,
+    "Stringency_Index": 46.3
+  },
+  {
+    "iso_code": "CHE",
+    "Lat": 15.97360361,
+    "Long": 10.95797667,
+    "Stringency_Index": 73.15
+  },
+  {
+    "iso_code": "TJK",
+    "Lat": 16.07075684,
+    "Long": 7.971400966,
+    "Stringency_Index": 73.15
+  },
+  {
+    "iso_code": "TZA",
+    "Lat": 17.9054155,
+    "Long": 7.89480415,
+    "Stringency_Index": 50
+  },
+  {
+    "iso_code": "THA",
+    "Lat": 18.06114425,
+    "Long": 9.69754957,
+    "Stringency_Index": 76.85
+  },
+  {
+    "iso_code": "TLS",
+    "Lat": 14.09196129,
+    "Long": 8.790284636,
+    "Stringency_Index": 77.78
+  },
+  {
+    "iso_code": "TGO",
+    "Lat": 15.92920098,
+    "Long": 7.265298945,
+    "Stringency_Index": 73.15
+  },
+  {
+    "iso_code": "TTO",
+    "Lat": 14.15161916,
+    "Long": 10.26684759,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "TUN",
+    "Lat": 16.28518664,
+    "Long": 9.291855564,
+    "Stringency_Index": 90.74
+  },
+  {
+    "iso_code": "TUR",
+    "Lat": 18.25035574,
+    "Long": 10.13179141,
+    "Stringency_Index": 77.78
+  },
+  {
+    "iso_code": "UGA",
+    "Lat": 17.63850561,
+    "Long": 7.437033796,
+    "Stringency_Index": 93.52
+  },
+  {
+    "iso_code": "UKR",
+    "Lat": 17.59363088,
+    "Long": 8.97390804,
+    "Stringency_Index": 88.89
+  },
+  {
+    "iso_code": "ARE",
+    "Lat": 16.10707515,
+    "Long": 11.11681868,
+    "Stringency_Index": 89.81
+  },
+  {
+    "iso_code": "GBR",
+    "Lat": 18.03334044,
+    "Long": 10.59044673,
+    "Stringency_Index": 79.63
+  },
+  {
+    "iso_code": "USA",
+    "Lat": 19.61763693,
+    "Long": 10.90090556,
+    "Stringency_Index": 72.69
+  },
+  {
+    "iso_code": "URY",
+    "Lat": 15.06073864,
+    "Long": 9.930684782,
+    "Stringency_Index": 72.22
+  },
+  {
+    "iso_code": "UZB",
+    "Lat": 17.32613614,
+    "Long": 8.740833259,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "VEN",
+    "Lat": 17.1631645,
+    "Long": 9.725856299,
+    "Stringency_Index": 87.96
+  },
+  {
+    "iso_code": "VNM",
+    "Lat": 18.39370601,
+    "Long": 8.727759419,
+    "Stringency_Index": 96.3
+  },
+  {
+    "iso_code": "YEM",
+    "Lat": 17.21088998,
+    "Long": 7.299220849,
+    "Stringency_Index": 58.33
+  },
+  {
+    "iso_code": "ZMB",
+    "Lat": 16.72698889,
+    "Long": 8.213178735,
+    "Stringency_Index": 70.83
+  },
+  {
+    "iso_code": "ZWE",
+    "Lat": 16.51438055,
+    "Long": 7.549490737,
+    "Stringency_Index": 87.96
+  }
+]

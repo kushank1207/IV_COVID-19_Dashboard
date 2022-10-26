@@ -1,0 +1,461 @@
+[
+    {
+        "state": "AK",
+        "lat": "63.588753",
+        "lng": "-154.493062",
+        "ICU_bed": "14.71",
+        "PSYCHIATRIC_bed": "0.94",
+        "ACUTE_bed": "13.15",
+        "Other_bed\r": "0.19\r"
+    },
+    {
+        "state": "AL",
+        "lat": "32.318231",
+        "lng": "-86.902298",
+        "ICU_bed": "16.84",
+        "PSYCHIATRIC_bed": "5.64",
+        "ACUTE_bed": "185.04",
+        "Other_bed\r": "5.73\r"
+    },
+    {
+        "state": "AR",
+        "lat": "35.20105",
+        "lng": "-91.831833",
+        "ICU_bed": "48.15",
+        "PSYCHIATRIC_bed": "5.26",
+        "ACUTE_bed": "133.29",
+        "Other_bed\r": "5.45\r"
+    },
+    {
+        "state": "AZ",
+        "lat": "34.048928",
+        "lng": "-111.093731",
+        "ICU_bed": "2.63",
+        "PSYCHIATRIC_bed": "0.63",
+        "ACUTE_bed": "22.45",
+        "Other_bed\r": "1.50\r"
+    },
+    {
+        "state": "CA",
+        "lat": "36.778261",
+        "lng": "-119.417932",
+        "ICU_bed": "8.18",
+        "PSYCHIATRIC_bed": "20.15",
+        "ACUTE_bed": "141.11",
+        "Other_bed\r": "4.35\r"
+    },
+    {
+        "state": "CO",
+        "lat": "39.550051",
+        "lng": "-105.782067",
+        "ICU_bed": "108.69",
+        "PSYCHIATRIC_bed": "4.73",
+        "ACUTE_bed": "81.42",
+        "Other_bed\r": "2.39\r"
+    },
+    {
+        "state": "CT",
+        "lat": "41.603221",
+        "lng": "-73.087749",
+        "ICU_bed": "1.17",
+        "PSYCHIATRIC_bed": "0.00",
+        "ACUTE_bed": "15.78",
+        "Other_bed\r": "0.98\r"
+    },
+    {
+        "state": "DC",
+        "lat": "38.905985",
+        "lng": "-77.033418",
+        "ICU_bed": "0.47",
+        "PSYCHIATRIC_bed": "0.00",
+        "ACUTE_bed": "0.00",
+        "Other_bed\r": "0.00\r"
+    },
+    {
+        "state": "DE",
+        "lat": "38.910832",
+        "lng": "-75.52767",
+        "ICU_bed": "0.56",
+        "PSYCHIATRIC_bed": "0.97",
+        "ACUTE_bed": "6.41",
+        "Other_bed\r": "0.12\r"
+    },
+    {
+        "state": "FL",
+        "lat": "27.664827",
+        "lng": "-81.515754",
+        "ICU_bed": "12.32",
+        "PSYCHIATRIC_bed": "71.18",
+        "ACUTE_bed": "150.56",
+        "Other_bed\r": "16.44\r"
+    },
+    {
+        "state": "GA",
+        "lat": "32.157435",
+        "lng": "-82.907123",
+        "ICU_bed": "78.78",
+        "PSYCHIATRIC_bed": "27.76",
+        "ACUTE_bed": "263.89",
+        "Other_bed\r": "26.72\r"
+    },
+    {
+        "state": "HI",
+        "lat": "19.898682",
+        "lng": "-155.665857",
+        "ICU_bed": "0.52",
+        "PSYCHIATRIC_bed": "0.25",
+        "ACUTE_bed": "7.76",
+        "Other_bed\r": "0.64\r"
+    },
+    {
+        "state": "IA",
+        "lat": "41.878003",
+        "lng": "-93.097702",
+        "ICU_bed": "167.56",
+        "PSYCHIATRIC_bed": "15.75",
+        "ACUTE_bed": "198.02",
+        "Other_bed\r": "0.45\r"
+    },
+    {
+        "state": "ID",
+        "lat": "44.068202",
+        "lng": "-114.742041",
+        "ICU_bed": "9.83",
+        "PSYCHIATRIC_bed": "10.23",
+        "ACUTE_bed": "58.75",
+        "Other_bed\r": "1.82\r"
+    },
+    {
+        "state": "IL",
+        "lat": "40.633125",
+        "lng": "-89.398528",
+        "ICU_bed": "104.87",
+        "PSYCHIATRIC_bed": "0.93",
+        "ACUTE_bed": "117.69",
+        "Other_bed\r": "7.89\r"
+    },
+    {
+        "state": "IN",
+        "lat": "40.551217",
+        "lng": "-85.602364",
+        "ICU_bed": "46.23",
+        "PSYCHIATRIC_bed": "14.06",
+        "ACUTE_bed": "109.54",
+        "Other_bed\r": "6.62\r"
+    },
+    {
+        "state": "KS",
+        "lat": "39.011902",
+        "lng": "-98.484246",
+        "ICU_bed": "325.33",
+        "PSYCHIATRIC_bed": "5.82",
+        "ACUTE_bed": "582.36",
+        "Other_bed\r": "3.87\r"
+    },
+    {
+        "state": "KY",
+        "lat": "37.839333",
+        "lng": "-84.270018",
+        "ICU_bed": "51.63",
+        "PSYCHIATRIC_bed": "15.11",
+        "ACUTE_bed": "250.30",
+        "Other_bed\r": "6.51\r"
+    },
+    {
+        "state": "LA",
+        "lat": "31.244823",
+        "lng": "-92.145024",
+        "ICU_bed": "9.87",
+        "PSYCHIATRIC_bed": "35.25",
+        "ACUTE_bed": "139.97",
+        "Other_bed\r": "19.31\r"
+    },
+    {
+        "state": "MA",
+        "lat": "42.407211",
+        "lng": "-71.382437",
+        "ICU_bed": "2.14",
+        "PSYCHIATRIC_bed": "2.28",
+        "ACUTE_bed": "28.66",
+        "Other_bed\r": "4.84\r"
+    },
+    {
+        "state": "MD",
+        "lat": "39.045755",
+        "lng": "-76.641271",
+        "ICU_bed": "3.51",
+        "PSYCHIATRIC_bed": "16.09",
+        "ACUTE_bed": "41.85",
+        "Other_bed\r": "1.15\r"
+    },
+    {
+        "state": "ME",
+        "lat": "45.253783",
+        "lng": "-69.445469",
+        "ICU_bed": "10.50",
+        "PSYCHIATRIC_bed": "2.42",
+        "ACUTE_bed": "30.26",
+        "Other_bed\r": "0.60\r"
+    },
+    {
+        "state": "MI",
+        "lat": "44.314844",
+        "lng": "-85.602364",
+        "ICU_bed": "31.36",
+        "PSYCHIATRIC_bed": "0.23",
+        "ACUTE_bed": "132.66",
+        "Other_bed\r": "6.48\r"
+    },
+    {
+        "state": "MN",
+        "lat": "46.729553",
+        "lng": "-94.6859",
+        "ICU_bed": "152.42",
+        "PSYCHIATRIC_bed": "0.00",
+        "ACUTE_bed": "93.46",
+        "Other_bed\r": "0.14\r"
+    },
+    {
+        "state": "MO",
+        "lat": "37.964253",
+        "lng": "-91.831833",
+        "ICU_bed": "85.99",
+        "PSYCHIATRIC_bed": "9.21",
+        "ACUTE_bed": "160.43",
+        "Other_bed\r": "7.68\r"
+    },
+    {
+        "state": "MS",
+        "lat": "32.354668",
+        "lng": "-89.398528",
+        "ICU_bed": "51.67",
+        "PSYCHIATRIC_bed": "16.96",
+        "ACUTE_bed": "231.98",
+        "Other_bed\r": "6.00\r"
+    },
+    {
+        "state": "MT",
+        "lat": "46.879682",
+        "lng": "-110.362566",
+        "ICU_bed": "347.24",
+        "PSYCHIATRIC_bed": "22.19",
+        "ACUTE_bed": "25.25",
+        "Other_bed\r": "0.56\r"
+    },
+    {
+        "state": "NC",
+        "lat": "35.759573",
+        "lng": "-79.0193",
+        "ICU_bed": "16.98",
+        "PSYCHIATRIC_bed": "2.83",
+        "ACUTE_bed": "232.29",
+        "Other_bed\r": "2.06\r"
+    },
+    {
+        "state": "ND",
+        "lat": "47.551493",
+        "lng": "-101.002012",
+        "ICU_bed": "150.07",
+        "PSYCHIATRIC_bed": "8.29",
+        "ACUTE_bed": "26.32",
+        "Other_bed\r": "5.21\r"
+    },
+    {
+        "state": "NE",
+        "lat": "41.492537",
+        "lng": "-99.901813",
+        "ICU_bed": "219.68",
+        "PSYCHIATRIC_bed": "6.33",
+        "ACUTE_bed": "41.42",
+        "Other_bed\r": "10.45\r"
+    },
+    {
+        "state": "NH",
+        "lat": "43.193852",
+        "lng": "-71.572395",
+        "ICU_bed": "1.94",
+        "PSYCHIATRIC_bed": "0.37",
+        "ACUTE_bed": "22.75",
+        "Other_bed\r": "0.96\r"
+    },
+    {
+        "state": "NJ",
+        "lat": "40.058324",
+        "lng": "-74.405661",
+        "ICU_bed": "4.04",
+        "PSYCHIATRIC_bed": "7.68",
+        "ACUTE_bed": "55.88",
+        "Other_bed\r": "5.61\r"
+    },
+    {
+        "state": "NM",
+        "lat": "34.97273",
+        "lng": "-105.032363",
+        "ICU_bed": "9.38",
+        "PSYCHIATRIC_bed": "5.27",
+        "ACUTE_bed": "51.14",
+        "Other_bed\r": "1.80\r"
+    },
+    {
+        "state": "NV",
+        "lat": "38.80261",
+        "lng": "-116.419389",
+        "ICU_bed": "5.43",
+        "PSYCHIATRIC_bed": "0.97",
+        "ACUTE_bed": "27.72",
+        "Other_bed\r": "1.61\r"
+    },
+    {
+        "state": "NY",
+        "lat": "43.299428",
+        "lng": "-74.217933",
+        "ICU_bed": "17.05",
+        "PSYCHIATRIC_bed": "3.03",
+        "ACUTE_bed": "127.02",
+        "Other_bed\r": "4.58\r"
+    },
+    {
+        "state": "OH",
+        "lat": "40.417287",
+        "lng": "-82.907123",
+        "ICU_bed": "36.33",
+        "PSYCHIATRIC_bed": "10.11",
+        "ACUTE_bed": "210.15",
+        "Other_bed\r": "14.11\r"
+    },
+    {
+        "state": "OK",
+        "lat": "35.007752",
+        "lng": "-97.092877",
+        "ICU_bed": "80.09",
+        "PSYCHIATRIC_bed": "6.37",
+        "ACUTE_bed": "160.90",
+        "Other_bed\r": "6.29\r"
+    },
+    {
+        "state": "OR",
+        "lat": "43.804133",
+        "lng": "-120.554201",
+        "ICU_bed": "32.20",
+        "PSYCHIATRIC_bed": "0.99",
+        "ACUTE_bed": "48.71",
+        "Other_bed\r": "0.09\r"
+    },
+    {
+        "state": "PA",
+        "lat": "41.203322",
+        "lng": "-77.194525",
+        "ICU_bed": "14.26",
+        "PSYCHIATRIC_bed": "25.99",
+        "ACUTE_bed": "175.31",
+        "Other_bed\r": "14.71\r"
+    },
+    {
+        "state": "RI",
+        "lat": "41.580095",
+        "lng": "-71.477429",
+        "ICU_bed": "0.72",
+        "PSYCHIATRIC_bed": "1.31",
+        "ACUTE_bed": "9.05",
+        "Other_bed\r": "0.33\r"
+    },
+    {
+        "state": "SC",
+        "lat": "33.836081",
+        "lng": "-81.163725",
+        "ICU_bed": "9.98",
+        "PSYCHIATRIC_bed": "4.57",
+        "ACUTE_bed": "100.98",
+        "Other_bed\r": "3.47\r"
+    },
+    {
+        "state": "SD",
+        "lat": "43.969515",
+        "lng": "-99.901813",
+        "ICU_bed": "130.14",
+        "PSYCHIATRIC_bed": "6.89",
+        "ACUTE_bed": "50.99",
+        "Other_bed\r": "5.01\r"
+    },
+    {
+        "state": "TN",
+        "lat": "35.517491",
+        "lng": "-86.580447",
+        "ICU_bed": "22.75",
+        "PSYCHIATRIC_bed": "2.62",
+        "ACUTE_bed": "217.63",
+        "Other_bed\r": "6.02\r"
+    },
+    {
+        "state": "TX",
+        "lat": "31.968599",
+        "lng": "-99.901813",
+        "ICU_bed": "206.13",
+        "PSYCHIATRIC_bed": "80.78",
+        "ACUTE_bed": "420.17",
+        "Other_bed\r": "23.73\r"
+    },
+    {
+        "state": "UT",
+        "lat": "39.32098",
+        "lng": "-111.093731",
+        "ICU_bed": "16.63",
+        "PSYCHIATRIC_bed": "1.09",
+        "ACUTE_bed": "38.89",
+        "Other_bed\r": "1.10\r"
+    },
+    {
+        "state": "VA",
+        "lat": "37.431573",
+        "lng": "-78.656894",
+        "ICU_bed": "36.07",
+        "PSYCHIATRIC_bed": "20.16",
+        "ACUTE_bed": "151.40",
+        "Other_bed\r": "7.53\r"
+    },
+    {
+        "state": "VT",
+        "lat": "44.558803",
+        "lng": "-72.577841",
+        "ICU_bed": "6.82",
+        "PSYCHIATRIC_bed": "4.77",
+        "ACUTE_bed": "13.22",
+        "Other_bed\r": "0.00\r"
+    },
+    {
+        "state": "WA",
+        "lat": "47.751074",
+        "lng": "-120.740139",
+        "ICU_bed": "68.44",
+        "PSYCHIATRIC_bed": "1.80",
+        "ACUTE_bed": "31.90",
+        "Other_bed\r": "3.87\r"
+    },
+    {
+        "state": "WI",
+        "lat": "43.78444",
+        "lng": "-88.787868",
+        "ICU_bed": "16.48",
+        "PSYCHIATRIC_bed": "5.01",
+        "ACUTE_bed": "141.67",
+        "Other_bed\r": "0.80\r"
+    },
+    {
+        "state": "WV",
+        "lat": "38.597626",
+        "lng": "-80.454903",
+        "ICU_bed": "57.50",
+        "PSYCHIATRIC_bed": "13.92",
+        "ACUTE_bed": "114.83",
+        "Other_bed\r": "8.66\r"
+    },
+    {
+        "state": "WY",
+        "lat": "43.075968",
+        "lng": "-107.290284",
+        "ICU_bed": "40.00",
+        "PSYCHIATRIC_bed": "10.76",
+        "ACUTE_bed": "25.48",
+        "Other_bed\r": "0.51\r"
+    }
+]
