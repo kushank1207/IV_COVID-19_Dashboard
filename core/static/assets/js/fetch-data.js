@@ -1,10 +1,12 @@
 window.addEventListener("load", function() {
+    
     load_report();
     load_trends();
     load_world_map();
     load_cases_table();
     load_realtime_growth_chart();
     load_daily_growth_chart();
+
 });
 
 
@@ -96,6 +98,7 @@ function load_world_map() {
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var data = JSON.parse(this.response);
+            // console.log(data)
             hoverinfo = function() {
                 result = [];
 
@@ -110,6 +113,7 @@ function load_world_map() {
 
                 return result;
             }();
+                // console.log(result)
 
             var plot_data = [{
                 type: "scattermapbox",
@@ -127,12 +131,15 @@ function load_world_map() {
                     },
                     colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
                     showscale: true,
+                    // size:14
                     size: Object.values(data["Confirmed"]),
                     sizemin: 0,
                     sizeref: 2000,
                     sizemode: "area"
                 }
             }];
+
+            console.log(Object.values(data["Lat"])[3])
 
             var plot_layout = {
                 margin: {t:0, l:0, r:0, b:0},
@@ -202,6 +209,8 @@ function load_realtime_growth_chart() {
 
             var dates = Object.keys(data["Confirmed"]) 
 
+            // console.log((data["Recovered"]))      
+            
             var confirmed_trace = {
                 x: dates,
                 y: Object.values(data["Confirmed"]),
@@ -233,7 +242,7 @@ function load_realtime_growth_chart() {
                 plot_bgcolor:'rgba(0,0,0,0)',
                 yaxis: {automargin: true, type: "log", gridcolor: "#32325d"},
                 xaxis: {automargin: true, showgrid: false},
-                showlegend: false,
+                showlegend: true,
                 font: {color: '#ced4da'},
                 margin: {t:0, l:0, r:0, b:0},
                 hovermode: "closest",
@@ -248,7 +257,7 @@ function load_realtime_growth_chart() {
                         x: 0.05,
                         xanchor: "auto",
                         bgcolor: "#6236FF",
-                        bordercolor: "rgba(0,0,0,0)"
+                        bordercolor: "rgba(255,0,0,0)"
                     }
                 ]
             };
@@ -326,6 +335,123 @@ function load_daily_growth_chart() {
 }
 
 
+
+
+
+function load_sector_dqqqata(){
+    
+    fetch('https://raw.githubusercontent.com/pathak-aman/IV_COVID-19_Dashboard/main/core/data/healthcare_cleaned.json')
+    .then((response) => response.json())
+    .then((data) =>  {
+        let lat_values = data["lat"];
+        let lon_values = data["lon"];
+        let state_values = data["state"];
+        let icu_bed = data["Other_bed"];
+        // console.log(data)
+
+        var plot_data = [{
+            type: "scattermapbox",
+            lat: lat_values,
+            lon: lon_values,
+            marker: {
+                color: icu_bed,
+                // colorbar: {
+                //     outlinewidth: 0,
+                //     title: {
+                //         text: "ICU_BEDs"
+                //     }
+                // },
+                colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
+                showscale: true,
+                size: icu_bed,
+                sizemin: 100,
+                sizeref: 2000,
+                sizemode: "area"
+            }
+        }];
+
+        var plot_layout = {
+            margin: {t:0, l:0, r:0, b:0},
+            paper_bgcolor:'rgba(0,0,0,0)',
+            mapbox: {
+                style: "carto-positron",
+                center: {lat: 30, lon: -30},
+                zoom: 2
+            }
+        };
+
+        var plot_config = {responsive: true, displayModeBar: true}
+
+        Plotly.newPlot(document.getElementById("test_1"), plot_data, plot_layout, plot_config);
+
+    }
+    );
+}
+
+
+async function getData() {
+    let url = 'https://raw.githubusercontent.com/pathak-aman/IV_COVID-19_Dashboard/main/core/data/healthcare_cleaned.json';
+    try {
+        let resp = await fetch(url);
+        return await resp.json();
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+//do whatever you want with the data response
+async function load_sector_data() {
+    let data = await getData();
+
+    var lat_values = data["lat"];
+    var lon_values = data["lng"];
+    var state_values = data["state"];
+    var icu_bed = data["Other_bed"];
+
+    var plot_data = [{
+        type: "scattermapbox",
+        lat: lat_values,
+        lon: lon_values,
+        marker: {
+            color: icu_bed,
+            colorbar: {
+                outlinewidth: 0,
+                title: {
+                    text: "ICU_BEDs"
+                }
+            },
+            colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
+            showscale: true,
+            size: icu_bed,
+            sizemin: 5,
+            sizeref: 10,
+            sizemode: "area"
+        }
+    }];
+
+    var plot_layout = {
+        margin: {t:0, l:0, r:0, b:0},
+        paper_bgcolor:'rgba(0,0,0,0)',
+        mapbox: {
+            style: "carto-positron",
+            center: {lat: 41.0902, lon: -99.7129},
+            zoom: 2
+        }
+    };
+
+    var plot_config = {responsive: true, displayModeBar: false}
+
+    Plotly.newPlot(document.getElementById("chart1"), plot_data, plot_layout, plot_config);
+
+
+
+
+
+
+}
+
+
+load_sector_data();
 
 function addCommas(input) {
     var number_string = input.toString();

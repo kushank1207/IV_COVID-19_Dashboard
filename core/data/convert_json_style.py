@@ -1,13 +1,6 @@
 import json
 
-def func():
-    with open ("healthcare.json", "r") as file:
-        dict_data = json.load(file)
-        return dict_data
-    # print(dict_data)
-
-if __name__ == "__main__":
-    data_old = func()   
+def convert_healthcare():
     json_struct = {
         "state" : [],
         "lat" : [],
@@ -31,3 +24,18 @@ if __name__ == "__main__":
 
     with open("healthcare_cleaned.json", "w") as outfile:
         json.dump(json_struct, outfile)
+
+
+def read_file(filename):
+    with open (filename,"r") as file:
+        dict_data = json.load(file)
+        return dict_data
+    # print(dict_data)
+
+if __name__ == "__main__":
+    # data_old = read_file("healthcare.json")  
+    # convert_healthcare(data_old) 
+    
+    data_old = read_file("Stringency_index.json")  
+    convert_healthcare(data_old) 
+
