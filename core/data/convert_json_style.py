@@ -1,6 +1,6 @@
 import json
 
-def convert_healthcare():
+def convert_healthcare(data_old):
     json_struct = {
         "state" : [],
         "lat" : [],
@@ -24,6 +24,27 @@ def convert_healthcare():
 
     with open("healthcare_cleaned.json", "w") as outfile:
         json.dump(json_struct, outfile)
+
+
+def convert_healthcare(data_old):
+    json_struct = {
+        "iso_code" : [],
+        "Lat" : [],
+        "Long" : [],
+        "Stringency_Index" : []
+    }
+
+    for country_data in data_old:
+        for key, value in country_data.items():
+            json_struct[key].append(value)
+            # if key == "state" or key == "Other_bed\r":
+            #     json_struct[key].append(value)
+            # else:
+    print(json_struct)
+    with open("stringency_index_cleaned.json", "w") as outfile:
+        json.dump(json_struct, outfile, indent=1)            
+
+
 
 
 def read_file(filename):
