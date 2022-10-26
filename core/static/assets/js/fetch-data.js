@@ -335,60 +335,6 @@ function load_daily_growth_chart() {
 }
 
 
-
-
-
-function load_sector_dqqqata(){
-    
-    fetch('https://raw.githubusercontent.com/pathak-aman/IV_COVID-19_Dashboard/main/core/data/healthcare_cleaned.json')
-    .then((response) => response.json())
-    .then((data) =>  {
-        let lat_values = data["lat"];
-        let lon_values = data["lon"];
-        let state_values = data["state"];
-        let icu_bed = data["Other_bed"];
-        // console.log(data)
-
-        var plot_data = [{
-            type: "scattermapbox",
-            lat: lat_values,
-            lon: lon_values,
-            marker: {
-                color: icu_bed,
-                // colorbar: {
-                //     outlinewidth: 0,
-                //     title: {
-                //         text: "ICU_BEDs"
-                //     }
-                // },
-                colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
-                showscale: true,
-                size: icu_bed,
-                sizemin: 100,
-                sizeref: 2000,
-                sizemode: "area"
-            }
-        }];
-
-        var plot_layout = {
-            margin: {t:0, l:0, r:0, b:0},
-            paper_bgcolor:'rgba(0,0,0,0)',
-            mapbox: {
-                style: "carto-positron",
-                center: {lat: 30, lon: -30},
-                zoom: 2
-            }
-        };
-
-        var plot_config = {responsive: true, displayModeBar: true}
-
-        Plotly.newPlot(document.getElementById("test_1"), plot_data, plot_layout, plot_config);
-
-    }
-    );
-}
-
-
 async function getData() {
     let url = 'https://raw.githubusercontent.com/pathak-aman/IV_COVID-19_Dashboard/main/core/data/healthcare_cleaned.json';
     try {
@@ -400,7 +346,7 @@ async function getData() {
 }
 
 //do whatever you want with the data response
-async function load_sector_data() {
+async function load_healthcare_sector_data() {
     let data = await getData();
 
     var lat_values = data["lat"];
@@ -443,15 +389,72 @@ async function load_sector_data() {
 
     Plotly.newPlot(document.getElementById("chart1"), plot_data, plot_layout, plot_config);
 
+}
+
+
+load_healthcare_sector_data();
+load_stringency_index_sector_data();
 
 
 
+async function stringency_getData() {
+    let url = 'https://raw.githubusercontent.com/pathak-aman/IV_COVID-19_Dashboard/main/core/data/stringency_index_cleaned.json';
+    try {
+        let resp = await fetch(url);
+        return await resp.json();
+    } catch (error) {
+        console.log(error);
+    }
+}
 
+async function load_stringency_index_sector_data() {
+    let data = await stringency_getData();
+
+    var lat_values = data["Lat"];
+    var lon_values = data["Long"];
+    var state_values = data["iso_code"];
+    var stringency_index = data["Stringency_Index"];
+
+    var plot_data = [{
+        type: "scattermapbox",
+        lat: lat_values,
+        lon: lon_values,
+        marker: {
+            color: stringency_index,
+            colorbar: {
+                outlinewidth: 0,
+                title: {
+                    text: "stringency_index"
+                }
+            },
+            colorscale: [[0, "hsl(255, 95%, 26%)"], [0.5, "hsl(330, 60%, 50%)"], [1, "hsl(60, 100%, 60%)"]],
+            showscale: true,
+            size: stringency_index,
+            sizemin: 5,
+            sizeref: 10,
+            sizemode: "area"
+        }
+    }];
+
+    var plot_layout = {
+        margin: {t:0, l:0, r:0, b:0},
+        paper_bgcolor:'rgba(0,0,0,0)',
+        mapbox: {
+            style: "carto-positron",
+            center: {lat: 30, lon: -30.7129},
+            zoom: 1
+        }
+    };
+
+    var plot_config = {responsive: true, displayModeBar: false}
+
+    Plotly.newPlot(document.getElementById("chart2"), plot_data, plot_layout, plot_config);
 
 }
 
 
-load_sector_data();
+
+
 
 function addCommas(input) {
     var number_string = input.toString();
