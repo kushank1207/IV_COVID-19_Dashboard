@@ -354,10 +354,28 @@ async function load_healthcare_sector_data() {
     var state_values = data["state"];
     var icu_bed = data["Other_bed"];
 
+
+    hoverinfo = function() {
+        result = [];
+
+        for (let index = 0; index < state_values.length; index++) {
+            result.push(
+                "<b>" + state_values[index] + "</b><br>" +
+                "Remaining ICU BEDs: " + icu_bed[index] + "<br>" + 
+                "Lat: " +lat_values[index] + "<br>" +
+                "Long: " + lon_values[index]
+            );
+        }
+
+        return result;
+    }();
+
     var plot_data = [{
         type: "scattermapbox",
         lat: lat_values,
         lon: lon_values,
+        hovertext: hoverinfo,
+        hoverinfo:"text",
         marker: {
             color: icu_bed,
             colorbar: {
@@ -415,10 +433,29 @@ async function load_stringency_index_sector_data() {
     var state_values = data["iso_code"];
     var stringency_index = data["Stringency_Index"];
 
+
+    hoverinfo = function() {
+        result = [];
+
+        for (let index = 0; index < stringency_index.length; index++) {
+            result.push(
+                "<b>" + state_values[index] + "</b><br>" +
+                "Stringency_Index: " + stringency_index[index] + "<br>" + 
+                "Lat: " +lat_values[index] + "<br>" +
+                "Long: " + lon_values[index]
+            );
+        }
+
+        return result;
+    }();
+
+
     var plot_data = [{
         type: "scattermapbox",
         lat: lat_values,
         lon: lon_values,
+        hovertext: hoverinfo,
+        hoverinfo: "text",
         marker: {
             color: stringency_index,
             colorbar: {
